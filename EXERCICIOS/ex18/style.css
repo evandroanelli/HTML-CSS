@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+p {
+text-align: justify;
+}
+main {
+    background-image: linear-gradient(to left, white, rgb(255, 164, 164));
+    background-color: rgb(254, 190, 190);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #243a32;
+    width: 500px;
+    padding: 22px;
+    margin: auto;
+}
+body {
+    background-image: linear-gradient(to right, white, orange, rgb(0, 255, 106));
+}
+img {
+    align: center;
+    border-radius: 10%;  
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem Flexível">
+
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/panda-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/panda-m.png" type="image/png">
+        <img src="imagens/panda-g.png" alt="Imagem Flexível">
+
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="media/fuck-it.mp3" controls></audio>
+    <hr>
+    <h1>VIDEOS COM HTML5</h1>
+        <p>Este video esta hospedado no meu proprio servidor</p>
+            <video width="350" controls poster="imagens/panda-p.png">
+                <source src="media/video002.mp4" type="video/mp4" >
+                <source src="media/video002.webm" type="video/webm" >
+                <p>SEU NAVEGADOR NAO TEM COMPATIBILIDADE COM REPRODUCÃO DE VÍDEOS.</p>
+    </video>
+    
+    <h1>Inserindo Vídeos do Youtube</h1>
+    <iframe width="450" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>
