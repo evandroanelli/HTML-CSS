@@ -1,0 +1,65 @@
+/* cores
+        #AC1830
+        #EA677D
+        #E62041
+        #662D36
+        #B31933
+        */
+
+body {
+    padding: 10px 30px 30px 30px;
+    margin: auto;
+    width: 600px;
+    height: 95vh;
+}
+div.header {
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+    border: 3px solid black;
+       }
+main {
+
+}
+div.quadrado {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    
+}
+div.footer {
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+    border: 3px solid black;
+   }
+   div > p {
+        width: fit-content;
+        background-color: aqua;
+   }
+div#q1 {
+    margin: 10px 10px;
+    background-image: url(imagens/Eu.jpeg);
+    background-size: 100%;
+}
+div#q2 {
+    margin: 10px 10px;
+    position: absolute;
+    text-align: auto;
+}
+div#q3 {
+    margin: 10px 10px;
+}
+div#q4 {
+    margin: 10px 10px;
+}
+div#q5 {
+    margin: 10px 10px;
+}
+div#q6 {
+    margin: 10px 10px;
+}
+footer {
+
+}
