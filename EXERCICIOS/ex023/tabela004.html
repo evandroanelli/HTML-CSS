@@ -4,8 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+        caption {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        table {
+            border-collapse: collapse;
+            padding-bottom: 10px;
+        }
+        th, td {
+            background-color: rgb(117, 63, 117);
+            width: 300px;
+            height: 100px;
+            border: 1px solid black;
+            border-color: brown;
+            text-align: center;
+        }
+        td.seg {
+            background-color: beige;
+        }
+        td.completa {
+            background-color: black;
+            color: white;
+            text-decoration: bold;
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            
+            <td>7</td>
+        </tr>
+        <tr>
+            <td colspan="3">8</td>
+            
+            <td>9</td>
+        </tr>
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td class="seg" colspan="4">A</td>
+            <td class="seg" rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td class="seg" rowspan="4">C</td>
+            <td class="seg">d</td>
+            <td class="seg">e</td>
+            <td class="seg">f</td>
+            
+        </tr>
+        <tr>
+            
+            <td class="seg">i</td>
+            <td class="seg">j</td>
+            <td class="seg">k</td>
+            
+        </tr>
+        <tr>
+            
+            <td class="seg">n</td>
+            <td class="seg">o</td>
+            <td class="seg">p</td>
+            
+        </tr>
+        <tr>
+            
+            <td class="seg" colspan="4">s</td>
+            
+        </tr>
+    </table>
+    <table>
+        <caption>
+        Filmes Favoritos
+        </caption>
+        <thead>
+        <tr>
+            <td class="completa" scope="col">Grupo</td>
+            <td class="completa" scope="col">Nomes</td>
+            <td class="completa" colspan="3" scope="colgroup">Filmes</td>
+            
+        </tr>
+    </thead>
+        <tr>
+            <td class="completa" rowspan="3" scope="rowgroup">MULHERES</td>
+            <td class="completa">ANA MARIA</td>
+            <td class="completa">ALIEN</td>
+            <td class="completa">RAMBO</td>
+            <td class="completa">VINGADORES</td>
+        </tr>
+        <tr>
+            
+            <td class="completa">BEATRIZ SOUSA</td>
+            <td class="completa">HULK</td>
+            <td class="completa">BATMAN</td>
+            <td class="completa">VIGADORES</td>
+        </tr>
+        <tr>
+            
+            <td class="completa">CLAUDIA M</td>
+            <td class="completa">MATRIX</td>
+            <td class="completa">PONTE</td>
+            <td class="completa">RARE</td>
+        </tr>
+        <tr>
+            <td class="completa" rowspan="3" scope="rowgroup">HOMENS</td>
+            <td class="completa">FABIO RA</td>
+            <td class="completa">SR ANEL</td>
+            <td class="completa">MATRIX</td>
+            <td class="completa">PORN</td>
+        </tr>
+        <tr>
+            
+            <td class="completa">DANIEL LOUR</td>
+            <td class="completa">MATRIX</td>
+            <td class="completa">RATO</td>
+            <td class="completa">TAXI D</td>
+        </tr>
+        <tr>
+            
+            <td class="completa">EVANDRO A</td>
+            <td class="completa">SANTOS</td>
+            <td class="completa">TIOTIO</td>
+            <td class="completa">GAGAGA</td>
+        </tr>
+    </table>
 </body>
 </html>

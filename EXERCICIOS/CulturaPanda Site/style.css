@@ -9,7 +9,7 @@
 body {
     padding: 10px 30px 30px 30px;
     margin: auto;
-    width: 600px;
+    width: 700px;
     height: 95vh;
 }
 div.header {
@@ -19,10 +19,13 @@ div.header {
     border: 3px solid black;
        }
 main {
-
+    padding: 10px 30px 30px 30px;
+    margin: auto;
+    width: 700px;
+    height: 95vh;
 }
 div.quadrado {
-    display: inline-block;
+    display: inline-flex;
     height: 200px;
     width: 200px;
     border: 3px solid black;
@@ -42,14 +45,16 @@ div#q1 {
     margin: 10px 10px;
     background-image: url(imagens/Eu.jpeg);
     background-size: 100%;
+    width: 250px;
 }
 div#q2 {
     margin: 10px 10px;
-    position: absolute;
     text-align: auto;
+    width: 300px;
 }
 div#q3 {
     margin: 10px 10px;
+    width: 300px;
 }
 div#q4 {
     margin: 10px 10px;
@@ -59,6 +64,7 @@ div#q5 {
 }
 div#q6 {
     margin: 10px 10px;
+    width: 300px;
 }
 footer {
 
